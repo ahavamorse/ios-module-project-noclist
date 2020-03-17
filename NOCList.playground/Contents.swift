@@ -116,13 +116,11 @@ func numberOfAgentsInLevels() {
             highLevelAgents += 1
         }
     }
-    print("\(lowLevelAgents) low level agents, \(midLevelAgents) mid level agents, and \(highLevelAgents) high level agents")
+    print("\(lowLevelAgents) low level agents, \(midLevelAgents) mid level agents, and f1\(highLevelAgents) high level agents")
 }
 //: ## Step 10
 //: Call the above function and check its output in the console.
-
-
-
+numberOfAgentsInLevels()
 //: ## Step 11 (Optional)
 //: Create and call a function that prints the cover names and access levels of all agents, but the list should be sorted by access level, in ascending order.
 
