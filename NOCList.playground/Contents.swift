@@ -29,9 +29,17 @@ This message will self destruct in 5 seconds.
 */
 //: ## Step 1
 //: Create constants for each of the above agents and store all their information in a tuple.
-
-
-
+let Ethan = (coverName: "Ethan Hunt", realName: "Tom Cruise", accessLevel: 8, compromised: false)
+let Jim = (coverName: "Jim Phelps", realName: "Jon Voight", accessLevel: 9, compromised: true)
+let Claire = (coverName: "Claire Phelps", realName: "Emmanuelle Beart", accessLevel: 5, compromised: false)
+let Eugene = (coverName: "Eugene Kittridge", realName: "Henry Czerny", accessLevel: 10, compromised: true)
+let Franz = (coverName: "Franz Krieger", realName: "Jean Reno", accessLevel: 4, compromised: false)
+let Luther = (coverName: "Luther Stickell", realName: "Ving Rhames", accessLevel: 4, compromised: false)
+let Sarah = (coverName: "Sarah Davies", realName: "Kristin Scott Thomas", accessLevel: 5, compromised: true)
+let Max = (coverName: "Max RotGrab", realName: "Vanessa Redgrave", accessLevel: 4, compromised: false)
+let Hannah = (coverName: "Hannah Williams", realName: "Ingeborga Dapkūnaitė", accessLevel: 5, compromised: true)
+let Jack = (overName: "Jack Harmon", realName: "Emilio Estevez", accessLevel: 6, compromised: true)
+let Frank = (coverName: "Frank Barnes", realName: "Dale Dye", accessLevel: 9, compromised: false)
 //: ## Step 2
 //: Place the above constants inside an array. Declare this array as a constant as well.
 
