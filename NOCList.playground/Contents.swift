@@ -116,7 +116,7 @@ func numberOfAgentsInLevels() {
             highLevelAgents += 1
         }
     }
-    print("\(lowLevelAgents) low level agents, \(midLevelAgents) mid level agents, and f1\(highLevelAgents) high level agents")
+    print("\(lowLevelAgents) low level agents, \(midLevelAgents) mid level agents, and \(highLevelAgents) high level agents")
 }
 //: ## Step 10
 //: Call the above function and check its output in the console.
