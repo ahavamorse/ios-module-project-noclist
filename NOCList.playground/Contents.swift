@@ -123,5 +123,16 @@ func numberOfAgentsInLevels() {
 numberOfAgentsInLevels()
 //: ## Step 11 (Optional)
 //: Create and call a function that prints the cover names and access levels of all agents, but the list should be sorted by access level, in ascending order.
-
-
+func agentsInLevelOrder() {
+ 
+    var currentLevel = 1
+    
+    while currentLevel <= 10 {
+        for agent in agents {
+            if agent.accessLevel == currentLevel {
+                print("\(agent.coverName), \(agent.accessLevel)")
+            }
+        }
+        currentLevel += 1
+    }
+}
